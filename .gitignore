@@ -1,0 +1,12 @@
+# secrets / local
+.env
+*.env
+**/appsettings.Development.json
+# node / dotnet build output
+node_modules/
+bin/
+obj/
+# Node-RED runtime state
+.node-red/
+**/.config.*.json
+**/flows_cred.json
